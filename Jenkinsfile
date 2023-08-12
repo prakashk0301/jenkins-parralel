@@ -2,7 +2,7 @@ pipeline
 { 
 agent any
 stages{
-  stage(‘print hi’)
+  stage('print hi')
   { steps {  sh 'echo hi' } }
   
   stage ('execute unit and component test')  //common stage
